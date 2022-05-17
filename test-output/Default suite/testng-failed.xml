@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.VTiger.Practice1.sampleForListeners">
+      <class name="blueStone.Scenario5">
         <methods>
-          <include name="bc"/>
-          <include name="FirstMethod"/>
-          <include name="SecondMethod"/>
+          <include name="bluestone"/>
         </methods>
-      </class> <!-- com.VTiger.Practice1.sampleForListeners -->
+      </class> <!-- blueStone.Scenario5 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
