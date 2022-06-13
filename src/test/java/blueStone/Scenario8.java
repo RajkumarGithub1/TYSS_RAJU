@@ -41,6 +41,8 @@ public class Scenario8
 		jse.executeScript("window.scrollBy(0,600)");
 		
 		driver.findElement(By.xpath("//img[@class='hc img-responsive center-block']")).click();
+		Thread.sleep(2000);
+		
 		Set<String> handles = driver.getWindowHandles();
 
 		Iterator<String> id = handles.iterator();
