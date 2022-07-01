@@ -179,12 +179,12 @@ public class WebDriverUtil
 		{
 			Set<String> winids = driver.getWindowHandles();
 
-			Iterator<String> it = winids.iterator();
+//			Iterator<String> it = winids.iterator();
 
 			for (String id : winids) 
 			{
 				driver.switchTo().window(id);
-				if(title.equalsIgnoreCase(driver.getTitle())) {
+				if(title.contains(driver.getTitle())) {
 					break;
 				}
 			}

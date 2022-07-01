@@ -84,12 +84,4 @@ public class BaseClass
 			driver.close();
 		}
 	
-	
-	
-	
-	
-	
-	
-	
-	
 }
